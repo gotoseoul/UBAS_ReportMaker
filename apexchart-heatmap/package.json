@@ -1,0 +1,72 @@
+{
+  "name": "apexchart-heatmap",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.13.0",
+    "@emotion/styled": "^11.13.0",
+    "@mui/icons-material": "^5.15.20",
+    "@mui/material": "^5.16.7",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/react-date-range": "^1.4.9",
+    "active-table": "^1.1.5",
+    "active-table-react": "^1.1.5",
+    "apexcharts": "^3.51.0",
+    "axios": "^1.7.2",
+    "cors": "^2.8.5",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react-hooks": "^4.6.2",
+    "express": "^4.19.2",
+    "leaflet": "^1.9.4",
+    "leaflet.markercluster": "^1.5.3",
+    "mapbox-gl": "^3.4.0",
+    "moment": "^2.30.1",
+    "mui-datatables": "^4.3.0",
+    "multer": "^1.4.5-lts.1",
+    "path-browserify": "^1.0.1",
+    "react": "^18.3.1",
+    "react-apexcharts": "^1.4.1",
+    "react-chrono": "^2.6.1",
+    "react-data-grid": "^7.0.0-beta.46",
+    "react-date-range": "^2.0.1",
+    "react-dom": "^18.3.1",
+    "react-leaflet": "^4.2.1",
+    "react-modal": "^3.16.1",
+    "react-scripts": "5.0.1",
+    "react-table": "^7.8.0",
+    "react-vis": "^1.12.1",
+    "sqlite3": "^5.1.7",
+    "styled-components": "^6.1.11",
+    "util": "^0.12.5",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "concurrently \"npm run start-react\" \"npm run start-server\"",
+    "start-react": "react-scripts start",
+    "start-server": "node server.js"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "react-app-rewired": "^2.2.1"
+  }
+}
